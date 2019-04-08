@@ -4,7 +4,7 @@
 
 <h1>"My First PHP script!"</h1>
 
-<?php
+<?php 
 //1. About echo
 echo "Hello World!";
 ?>
@@ -167,7 +167,78 @@ echo str_word_count("<div>ASBDLKASJDLASKDJasdasd</div>");
 echo str_word_count("This place is Tokyo, Japan");
 
 echo strrev("ayubihs");
+echo strpos("Final Fantasy", "tas");
+echo str_replace("shibuya","Tebuya","Tokyo shibuyaku");
 ?>
+
+<?php 
+echo "<br><br><br><br><br><br><br><br>";
+//16.constant variable
+define("emo","emotional?",true);
+echo emo;
+
+define("EmOt","leihau",true);
+echo EmOt;
+
+?>
+
+
+<?php
+//17.constant arrays
+define("lala",[
+    "pizza",
+    "sushi",
+    "curry"
+]);
+echo lala[2]."<div></div>";
+?>
+
+<?php
+//18. space ship
+    $x = 10;
+    $y = 2;
+
+    echo $x <=> $y;
+
+    $a = 4;
+    $b = 4;
+    echo $a <=> $b;
+
+    $t = 1 ;
+    $i = 2;
+    echo $t<=>$i;
+?>
+
+<?php
+//19.string concatenation
+    $tim = "ABC";
+    $tom = "DEF";
+
+    echo $tim.=$tom;
+?>
+
+
+<?php
+//20. ?? NULL coalesce
+    $fff = NULL;
+    $abc = $fff ?? "string jam";
+    echo $abc;
+
+//21/ if , elseif, else
+// if($abc){
+
+// } elseif($abc){
+
+// } else{
+
+// }
+?>
+
+<?php 
+
+
+?>
+
 
 
 </body>
