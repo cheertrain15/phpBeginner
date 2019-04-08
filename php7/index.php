@@ -4,7 +4,7 @@
 
 <h1>"My First PHP script!"</h1>
 
-<?php 
+<?php
 //1. About echo
 echo "Hello World!";
 ?>
@@ -235,7 +235,7 @@ echo lala[2]."<div></div>";
 ?>
 
 <?php 
-
+declare(strict_types=1);
 
 ?>
 
